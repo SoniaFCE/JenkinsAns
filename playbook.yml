@@ -1,6 +1,6 @@
 ---
 
-- hosts: 172.31.107.24
+- hosts: web
 
   vars:
    root_password: 'root'
