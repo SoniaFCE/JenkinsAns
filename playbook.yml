@@ -1,9 +1,6 @@
 ---
 
-- hosts: 172.31.107.24
-
-  vars:
-   root_password: 'root'
+- hosts: web
 
   tasks:
   - name: installation Mariadb
