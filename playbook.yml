@@ -1,7 +1,6 @@
 ---
 
 - hosts: web
-
   tasks:
   - name: installation Mariadb
     dnf:
@@ -10,7 +9,7 @@
     loop:
      - mariadb
      - mariadb-server
-     - Python 2.7.5
+     - python3-PyMySQL
   - name: activation mariadb
     systemd:
      name: mariadb
