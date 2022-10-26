@@ -6,10 +6,14 @@
    root_password: 'root'
 
   tasks:
-  - name: install mariadb
-    apt:
-     name: mariadb-server
+  - name: installation Mariadb
+    dnf:
+     name: "{{ item }}"
      state: present
+    loop:
+     - mariadb
+     - python3-PyMySQL
+     - mariadb-server
   - name: activation mariadb
     systemd:
      name: mariadb
