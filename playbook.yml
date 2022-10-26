@@ -1,6 +1,13 @@
 ---
 
 - hosts: web
+<<<<<<< HEAD
+=======
+
+  vars:
+   root_password: 'root'
+
+>>>>>>> 32d22b8465be3145b0d494305df018eb47d99e6d
   tasks:
   - name: installation Mariadb
     dnf:
