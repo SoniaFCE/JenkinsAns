@@ -12,7 +12,7 @@
     loop:
      - mariadb
      - mariadb-server
-     - python3-PyMysql
+     - Python 2.7.5
   - name: activation mariadb
     systemd:
      name: mariadb
