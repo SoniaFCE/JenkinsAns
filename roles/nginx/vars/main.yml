@@ -2,5 +2,8 @@
 # vars file for nginx
 
 sites:
- - ben.lol
- - ben.cool
+ - sonia
+ - sonia1
+ sites_ae:
+ - available
+ - enabled
