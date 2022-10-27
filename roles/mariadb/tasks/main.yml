@@ -1,5 +1,4 @@
 ---
-tasks:
 - name: installation Mariadb
   dnf:
    name: "{{ item }}"
@@ -9,7 +8,7 @@ tasks:
    - mariadb-server
    - python2-PyMySQL
 - name: activation mariadb
-   systemd:
+  systemd:
    name: mariadb
    state: started
    enabled: yes
