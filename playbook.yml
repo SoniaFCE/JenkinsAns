@@ -3,5 +3,5 @@
 - hosts: web 
   roles:
     - roles/ansible/nginx
-    - roles/php
+    - roles/ansible/php
     - roles/mariadb
