@@ -1,8 +1,7 @@
 ---
 
-- hosts: web
-  
+- hosts: web 
   roles:
-    - roles/nginx
+    - roles/ansible/nginx
     - roles/php
     - roles/mariadb
