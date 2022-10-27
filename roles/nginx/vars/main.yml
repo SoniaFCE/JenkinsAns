@@ -4,6 +4,6 @@
 sites:
  - sonia
  - sonia1
- sites_ae:
+sites_ae:
  - available
  - enabled
