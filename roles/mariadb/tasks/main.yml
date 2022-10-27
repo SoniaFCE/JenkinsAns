@@ -10,9 +10,9 @@ tasks:
    - python2-PyMySQL
 - name: activation mariadb
    systemd:
-    name: mariadb
-    state: started
-    enabled: yes
+   name: mariadb
+   state: started
+   enabled: yes
 - name: ajout .my.cnf conf mariadb
    copy:
    src: .my.cnf
