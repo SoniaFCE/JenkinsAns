@@ -8,7 +8,7 @@
     dnf:
      name: "{{ item }}"
      state: present
-   loop:
+    loop:
      - mariadb
      - mariadb-server
      - Python3
